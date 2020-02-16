@@ -1,0 +1,44 @@
+This comment file is divided in several section.
+
+SUBMISSION_&_COMPILE_SECTION-------------------------------------
+No error to report in this section
+-----------------------------------------------------------------
+
+RUNTIME_SECTION--------------------------------------------------
+TEST OF makeValid
+success
+TEST OF caesarCipher
+new test with key 7 : success
+new test with key 0 : success
+new test with key 54 : incorrect answer
+new test with key -3 : success
+new test with key -60 : incorrect answer
+TEST OF caesarAnalysis
+new test : success
+new test : incorrect answer
+new test : success
+TEST OF vigenereCipher
+new test with key 15,17,4,25,21,11,3,: success
+new test with key 27,-5,4,25,32,-36,23,: incorrect answer
+new test with key 5,7,2,5,19,23,12,1,0,2,4,11,: success
+TEST OF vigenereDecipher
+new test with key 15,17,4,25,21,11,3,: success
+new test with key 27,-5,4,25,32,-36,23,: incorrect answer
+new test with key 5,7,2,5,19,23,12,1,0,2,4,11,: success
+TEST OF transpositionCipher
+new test with key 7 : success
+new test with key 7 : success
+new test with key 54 : success
+TEST OF transpositionDecipher
+new test with key 7 : success
+new test with key 7 : success
+Total Score: 81
+
+---------------------------------------------------------------
+
+FOOTNOTE-------------------------------------------------------
+Note : A 'cannot find symbol' compilation error may come from extra and thus forbidden imports. A forbidden import causing a compiliation failure justifies a 0.
+Questions about the course material or this assignment should be adressed to TAs during office hours.
+If you have general questions about how this assignment was graded or you believe that an error was made, please send an argumented and detailed report to qing.tian@mail.mcgill.ca.
+Any other request should be adressed to the lecturers.
+---------------------------------------------------------------

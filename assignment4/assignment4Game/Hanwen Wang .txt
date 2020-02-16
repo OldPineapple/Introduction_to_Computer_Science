@@ -1,0 +1,72 @@
+This comment file is divided in several section.
+
+SUBMISSION_&_COMPILE_SECTION-------------------------------------
+No error to report in this section
+-----------------------------------------------------------------
+
+RUNTIME_SECTION--------------------------------------------------
+QUESTION 5 : addDisk
+1st test (add disk in 2, empty board) : well-done
+2nd test (add disk in 2, standard case) : well-done
+3rd test (add disk in 2, get full board) : wrong answer
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 |
++---+---+---+---+---+---+---+
+| 2 | 1 | 2 | 1 | 2 | 1 | 2 |
+| 1 | 2 | 1 | 2 | 1 | 2 | 1 |
+| 2 | 1 | 2 | 1 | 2 | 1 | 2 |
+| 1 | 2 | 1 | 2 | 1 | 2 | 1 |
+| 2 | 1 | 2 | 1 | 2 | 1 | 2 |
+| 1 | 2 | 1 | 2 | 1 | 2 | 1 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 |
++---+---+---+---+---+---+---+
+| 2 | 1 | 2 | 1 | 2 | 1 | 2 |
+| 1 | 2 | 1 | 2 | 1 | 2 | 1 |
+| 2 | 1 | 2 | 1 | 2 | 1 | 2 |
+| 1 | 2 | 1 | 2 | 1 | 2 | 1 |
+| 2 | 1 | 2 | 1 | 2 | 1 | 2 |
+| 1 | 2 | 1 | 2 | 1 | 2 | 1 |
+   score for question 5 (out of 8) : 5
+QUESTION 6 : isWinning
+1st test (not winning) : well-done
+2nd test (winning horizontally) : well-done
+3rd test (winning horizontally) : well-done
+4th test (winning vertically) : well-done
+5th test (winning diagonally) : well-done
+6th test (winning diagonally) : well-done
+7th test (winning somewhere else but not here) : well-done
+8th test (other player winning) : well-done
+   score for question 6 (out of 16) : 16
+QUESTION 7 : canWinNextRound
+1st test (player cannot win) : well-done
+2nd test (player can win with a vertical line) : well-done
+3rd test (player can win with a horizontal line) : well-done
+4th test (player can win with a diagonal line) : well-done
+   score for question 7 (out of 8) : 8
+QUESTION 8 : canWinTwoTurns
+1st test (player can win) : wrong answer
+2nd test (player may not win) : well-done
+3rd test (player can win) : well-done
+4th test (player can lose) : well-done
+   score for question 8 (out of 16) : 12
+QUESTION 9 : getNextMove
+/media/qtian/DATA/Dropbox/McGillStorage/COMP250-Intro_to_CS/Grading_Robot/Grading_test/src/.
+could not find test file
+could not find test file
+could not find test file
+could not find test file
+   score for question 9 (out of 10) : 10
+QUESTION 10 : movePlayer1
+1st test (player can win directly) : well-done
+2nd test (player can win in two turns) : wrong answer
+3rd test (player has to play above) : well-done
+4th test (player cannot play above) : well-done
+5th test (player cannot play above and has to go pretty far) : well-done
+   score for question 10 (out of 14) : 11
+Total Score: 62
+
+---------------------------------------------------------------
+
+FOOTNOTE-------------------------------------------------------
+Note : A 'cannot find symbol' compilation error may come from extra and thus forbidden imports. A forbidden import causing a compilation failure justifies a 0.
+If you have questions about this assignment and how it was graded, please contact cs250@cs.mcgill.ca. Questions about the course material and conceptual questions about the assignment are best answered at office hours, held daily in Trottier.
+---------------------------------------------------------------

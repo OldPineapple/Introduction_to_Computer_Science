@@ -1,0 +1,39 @@
+This comment file is divided in several section.
+
+SUBMISSION_&_COMPILE_SECTION-------------------------------------
+No error to report in this section
+-----------------------------------------------------------------
+
+RUNTIME_SECTION--------------------------------------------------
+QUESTION 1 : addEdge AND removeEdge
+1st test (add edge (2,7)) : well-done
+2nd test (add edge (8,7)) : well-done
+3rd test (remove edge (2,7)) : well-done
+4th test (remove edge (8,7)) : well-done
+   score for question 1 (out of 4) : 4
+QUESTION 2 : nbEdges
+1st test (without self-loops) : well-done
+2nd test (with self-loops) : wrong answer 
+   score for question 2 (out of 4) : 2
+QUESTION 3 : cycle
+1st test (0) : well-done
+2nd test (3) : well-done
+3rd test (7) : wrong answer 
+4th test (10) : well-done
+5th test (10) : well-done
+   score for question 3 (out of 10) : 8
+QUESTION 4 : shortestPath
+1st test (0,7) : well-done
+2nd test (12,19) : well-done
+3rd test (2,6) : well-done
+4th test (10,13) : wrong answer 
+5th test (14,14) : wrong answer 
+   score for question 4 (out of 10) : 6
+Total Score: 20
+
+---------------------------------------------------------------
+
+FOOTNOTE-------------------------------------------------------
+Note : A 'cannot find symbol' compilation error may come from extra and thus forbidden imports. A forbidden import causing a compilation failure justifies a 0.
+If you have questions about this assignment and how it was graded, please contact cs250@cs.mcgill.ca. Questions about the course material and conceptual questions about the assignment are best answered at office hours, held daily in Trottier.
+---------------------------------------------------------------

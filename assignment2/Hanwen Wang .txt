@@ -1,0 +1,69 @@
+This comment file is divided in several section.
+
+SUBMISSION_&_COMPILE_SECTION-------------------------------------
+No error to report in this section
+-----------------------------------------------------------------
+
+RUNTIME_SECTION--------------------------------------------------
+TESTING SORT
+TEST merge : well-done
+TEST mergeSort : well-done
+temporary total (up to 10) : 10
+TESTING ADDBOX ON SHELF
+TEST 1 : OK
+TEST 2 : OK
+TEST 3 : OK
+temporary total (up to 25) : 25
+TESTING ADDBOX ON WAREHOUSE
+TEST 1 : well-done
+TEST 2 : well-done
+TEST 3 : well-done
+TEST 4 : well-done
+TEST 5 : well-done
+TEST 6 : correct message and correct storage
+temporary total (up to 40) : 40
+TESTING REMOVEBOX FROM SHELF
+TEST 1 : no box was to be found, so correct no-box and shelf is correct
+TEST 2 : the box returned is correct and the shelf is not correct
+TEST 3 : no box was to be found, so correct no-box and shelf is correct
+TEST 4 : the box returned is correct and shelf is correct
+temporary total (up to 55) : 53
+TESTING ADDTOSHIP IN WAREHOUSE
+TEST 1 : well-done
+TEST 2 : well-done
+TEST 3 : well-done
+TEST 4 : well-done
+TEST 5 : well-done
+TEST 6 : well-done
+temporary total (up to 70) : 68
+TESTING SHIPBOX IN WAREHOUSE
+TEST 1 : box added to the right list and shelves left in correct state
+TEST 2 : box added to the right list and shelves left in correct state
+TEST 3 : box added to the right list and shelves left in correct state
+TEST 4 : box added to the right list and shelves left in correct state
+TEST 5 : no box was to be found, and you did not find it and shelves left in correct state
+temporary total (up to 80) : 78
+TESTING MOVEONEBOX IN WAREHOUSE
+TEST 1 : error
+TEST 2 : you moved the box on its shelf
+TEST 3 : well-done
+temporary total (up to 90) : 83
+TESTING MOVEONEBOX IN WAREHOUSE
+Box 1 is not on the correct shelf
+Box 2 is not on the correct shelf
+Box 3 is not on the correct shelf
+Box 4 is not on the correct shelf
+Box 5 is not on the correct shelf
+Box 6 is not on the correct shelf
+Shelf 0 has correct available length
+Shelf 1 has correct available length
+Shelf 2 has correct available length
+Shelf 3 has correct available length
+Total Score: 87
+
+---------------------------------------------------------------
+
+FOOTNOTE-------------------------------------------------------
+Note : A 'cannot find symbol' compilation error may come from extra and thus forbidden imports. A forbidden import causing a compilation failure justifies a 0.
+If you have questions about this assignment and how it was graded, please contact cs250@cs.mcgill.ca. Questions about the course material and conceptual questions about the assignment are best answered at office hours, held daily in Trottier.
+---------------------------------------------------------------

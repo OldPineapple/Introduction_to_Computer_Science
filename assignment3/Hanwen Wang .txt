@@ -1,0 +1,84 @@
+This comment file is divided in several section.
+
+SUBMISSION_&_COMPILE_SECTION-------------------------------------
+No error to report in this section
+-----------------------------------------------------------------
+
+RUNTIME_SECTION--------------------------------------------------
+TEST addBuilding
+TEST 1 : Building at correct yearOC and height
+TEST 2 : Building at correct yearOC and height
+TEST 3 : Building at correct yearOC and height
+TEST 4 : Building at correct yearOC and height
+out of 14 : 14
+
+TEST addBuildings
+Test 1
+Building at correct yearOC and height
+Building at correct yearOC and height
+Building at correct yearOC and height
+Building not added
+Number of OneBuildings in valid place (4 max) : 3
+Tree structure is valid
+Test 2
+Building at correct yearOC and height
+Building not added
+Building at correct yearOC and height
+Building at correct yearOC and height
+Number of OneBuildings in valid place (4 max) : 3
+Tree structure is valid
+out of 12 : 8
+
+TEST removeBuilding
+TEST 1 : well-done
+TEST 2 : well-done
+TEST 3 : well-done
+TEST 4 : incorrect answer
+TEST 5 : well-done
+TEST 6 : incorrect answer
+TEST 7 : incorrect answer
+number of cases that were running but without computing the correct answer : 3
+out of 24 : 13
+
+TEST oldest
+TEST 1 : well-done
+TEST 2 : well-done
+TEST 3 : well-done
+TEST 4 : well-done
+out of 8 : 8
+
+TEST highest
+TEST 1 : incorrect answer
+TEST 2 : well-done
+TEST 3 : well-done
+number of cases that were running but without computing the correct answer : 1
+out of 9 : 7
+
+TEST highestFromYear
+TEST 1 : well-done
+TEST 2 : well-done
+TEST 3 : well-done
+TEST 4 : well-done
+out of 8 : 8
+
+TEST numberFromYears
+TEST 1 : well-done
+TEST 2 : well-done
+TEST 3 : incorrect answer
+TEST 4 : well-done
+number of cases that were running but without computing the correct answer : 1
+out of 10 : 7
+
+TEST costPlanning
+correct length of the array
+number of years correctly computed : 14
+out of 15 : 15
+
+Total Score: 80
+
+---------------------------------------------------------------
+
+FOOTNOTE-------------------------------------------------------
+Note : A 'cannot find symbol' compilation error may come from extra and thus forbidden imports. A forbidden import causing a compilation failure justifies a 0.
+If you have questions about this assignment and how it was graded, please contact cs250@cs.mcgill.ca. Questions about the course material and conceptual questions about the assignment are best answered at office hours, held daily in Trottier.
+---------------------------------------------------------------
